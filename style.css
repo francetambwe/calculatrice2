@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 2px solid black;
+    background-color: aliceblue;
+    width: 30vw;
+    margin: 10vh auto;
+    border-radius: 10px;
+}
+
+button{
+    height: 4rem;
+
+    
+}
+input{
+    text-align: right;
+    width: 100%;
+    border: 0cm;
+    height: 15vh;
+    background-color: black;
+    color: white;
+    border-radius: 5px 5px 0 0;
+}
+
+.france{
+font-size: xx-large;
+}
+
+.color{
+    background-color:rgb(255, 165, 0);
+}
+
+ .une{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    /* height: 16%; */
+
+}
+
+.deux{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* height: 16%; */
+
+
+}
+.trois{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* height: 16%; */
+    
+}
+
+.quatre{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* height: 16%; */
+    
+}
+.cinq{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    /* height: 16%; */
+
+}
+
+
